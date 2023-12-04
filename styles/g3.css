@@ -62,7 +62,89 @@ nav li a{
     margin-top: 25px;
     width: 100%;
 }
+/* main section */
+/* top part */
+.top-part{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 70px;
+}
+.team-pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+}
+.team-pic >img{
+    height: 100%;
+    width: 100%;
+}
+.text-part{
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-right: 120px;
+}
+.main-heading{
+    font-size: 40px;
+    font-weight: 600;
+}
+.main-heading-text1{
+    color: rgb(179, 118, 5);
+}
+.main-heading-text2{
+    color:  #FF900E;
+}
+.main-text{
+    font-size:medium;
+    font-style: italic;
+}
+.mainbtn{
+    padding-top: 50px;
+}
+/* midel part */
+.midel-part{
+    display: flex;
+    margin-top: 80px;
+    padding-left: 70px;
+}
+.midel-text{
+    padding-top: 50px;
+}
+.midel-header-part{
+    font-size: 30px;
+}
+.midel-header-text{
+    font-size: 18px;
+    padding-top: 0;
+}
+.quts-item{
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-right: 230px;
+}
+.midel-quts{
+    background-color: rgb(240, 196, 165);
+    box-shadow: 5px 5px 5px slateblue;
+}
+.midel-hdin{
+    font-size: 25px;
+}
+.mdl-text{
+    color: purple;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 0;
+}
 
+
+
+
+
+
+
+.midel-img{
+    height: 100%;
+    width: 100%;
+}
 /* responsive section */
 /* mobile */
 @media screen and (max-width:576px) {
